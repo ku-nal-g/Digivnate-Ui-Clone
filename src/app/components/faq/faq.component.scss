@@ -1,0 +1,23 @@
+.frequently-asked {
+  background-color: rgb(244, 246, 249);
+}
+.accordion-button{
+  background-color: rgb(244, 246, 249);
+}
+.accordion-body{
+background-color: rgb(244, 246, 249);
+}
+.accordion-body p{
+  font-size: 1.3rem;
+}
+button.accordion-button{
+  color: rgb(19, 118, 236);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+button.accordion-button:hover{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: color 0.6s ease;
+}

@@ -1,0 +1,28 @@
+.bg-style {
+  background-color: rgb(244, 246, 249);
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(254, 133, 1);
+  transition: border 0.8s ease;
+}
+h5{
+  font-weight: 600;
+}
+p{
+  line-height: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+span.icon i{
+  font-size: 1.2rem ;
+  font-weight: 500;
+  cursor: pointer;
+}

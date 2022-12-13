@@ -1,0 +1,85 @@
+.header-div {
+  display: flex;
+  min-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(214, 224, 242);
+}
+
+.fixed-class {
+  position: fixed;
+  min-width: 100%;
+}
+
+.logo-div img {
+  cursor: pointer;
+}
+
+.navigation-bar-div ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navigation-bar-div ul li a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navigation-bar-div ul li a:hover {
+  border-bottom: 2px solid black;
+  transition: border 0.4s ease;
+}
+
+button.contact {
+  color: white;
+  border: none;
+  outline: none;
+  background: rgb(19, 118, 236);
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+button.contact:hover {
+  background-color: rgb(254, 133, 1);
+  transition: all 0.6s ease;
+  color: black;
+}
+
+.collapse-bar-div {
+  min-width: 100%;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+.collapse-bar-div a {
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.collapse-bar-div a:hover {
+  color: rgb(254, 133, 1)
+}
+.menu-icon-div{
+  display: none;
+}
+.show-collapse-div{
+  display: block;
+  transition: all 1s ease;
+}
+
+@media screen and (max-width: 1005px) {
+  .navigation-bar-div {
+    display: none;
+  }
+  .menu-icon-div{
+    display: block;
+  }
+}

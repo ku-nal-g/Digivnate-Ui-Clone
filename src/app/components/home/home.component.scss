@@ -1,0 +1,51 @@
+.home-div {
+  background-color: rgb(214, 224, 242);
+}
+
+.img-div img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.pd-top {
+  padding: 8% 3%;
+}
+
+span.font-sz {
+  font-size: 0.9rem;
+}
+
+.h1-text h1 {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.para p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+button.consult {
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  color: black;
+  background-color: rgb(254, 133, 1);
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+button.consult:hover {
+  background: rgb(19, 118, 236);
+  color: white;
+  transition: all 0.6s ease;
+}
+
+.home-text {
+  background-color: white;
+}
+
+.lt-height h5 {
+  line-height: 30px;
+}
